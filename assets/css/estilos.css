@@ -1,0 +1,69 @@
+* {
+    margin: 0
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    color: rgba(255, 255, 255, 0.931);
+    width: 180px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: #7ba238;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .img-card {
+    height: 100px;
+    background-image: url("https://www.amd.com/system/files/2020-05/461767_MSI_Bravo_17_AMD_laptop_1260x709_0.png");
+    background-image: url("data:image/webp;base64,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");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px
+}
+
+
+
+.card button {
+    background: #e2a30b;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.total-section {
+    width: 200px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.total-section .color {
+    display: flex;
+}
+
+.total-section .color div{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px;
+}
